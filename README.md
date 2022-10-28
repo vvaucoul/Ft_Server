@@ -1,5 +1,29 @@
 # Ft_Server
 
-## Note obtenue : 100/100
+Using docker to create containers.<br>
+Install a full web server which will be able to run multiple services, such as Wordpress, PhpMyadmin.<br>
 
-Utilisation de Docker afin de créer des conteneurs
+## Usage
+
+- Clone Repository
+```bash
+git clone https://vvaucoul/Ft_Server && cd Ft_Server
+```
+
+- Launch Docker
+```bash
+sudo ./start.sh [Container Name]
+```
+
+- Delete All Containers
+```bash
+sudo docker system prune --all
+```
+
+## Services
+
+- Nginx Server
+- MySQL Database
+- PhpMyAdmin
+- Wordpress service
+
