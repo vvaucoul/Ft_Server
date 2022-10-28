@@ -7,7 +7,7 @@ Install a full web server which will be able to run multiple services, such as W
 
 - Clone Repository
 ```bash
-git clone https://vvaucoul/Ft_Server && cd Ft_Server
+git clone https://github.com/vvaucoul/Ft_Server && cd Ft_Server
 ```
 
 - Launch Docker
